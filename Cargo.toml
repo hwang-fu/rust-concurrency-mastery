@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "p01_rc_basics",
+    "p02_rc_tree",
+    "p03_weak_doubly_linked",
+    "p04_arc_intro",
+    "p05_arc_counter",
+    "p06_mutex_basics",
+    "p07_rwlock_cache",
+    "p08_deadlock_lab",
+    "p09_threadpool",
+    "p10_event_bus",
+    "p11_pitfalls",
+]
