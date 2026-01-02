@@ -2,6 +2,9 @@
 //!
 //! When a thread panics while holding a lock, the mutex becomes "poisoned".
 //! Subsequent lock attempts return `Err(PoisonError)`.
+//!
+//! In production, prevent panics in locked sections rather than recovering from poison.
+//! Ignoring poison should be a conscious choice, not a default.
 
 use std::{
     sync::{Arc, Mutex},

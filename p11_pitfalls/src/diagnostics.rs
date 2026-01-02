@@ -113,6 +113,7 @@ pub fn demo_weak_validity() {
     println!("Weak::strong_count = {}", weak.strong_count());
 }
 
+/// Summary of diagnostic techniques.
 pub fn summary() {
     println!("\n=== Diagnostic Techniques Summary ===");
     println!();

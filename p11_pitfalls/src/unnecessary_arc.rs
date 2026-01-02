@@ -65,6 +65,7 @@ pub fn demo_channels() {
     println!("Received: {:?}", received);
 }
 
+/// Summary: When to use what.
 pub fn guidelines() {
     println!("=== When to Use What ===");
     println!();
